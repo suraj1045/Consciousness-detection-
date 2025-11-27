@@ -54,7 +54,7 @@ models/
 
 # Ignore pickle files
 *.pkl
-.pickle
+*.pickle
 # or be more specific
 data/*.pkl
 models/*.pkl
