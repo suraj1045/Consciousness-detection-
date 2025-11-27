@@ -1,0 +1,19 @@
+# Core PyTorch and Computer Vision dependencies
+torch>=1.8.0
+torchvision>=0.9.0
+opencv-python>=4.1.1 # For real-time video/webcam processing and visualization
+
+# Scientific Computing and Plotting
+numpy>=1.18.5
+matplotlib>=3.2.2
+pandas>=1.1.4
+PyYAML>=5.3.1 # For reading the data and model configuration files
+
+# Other Utilities and Optional Training Dependencies
+requests>=2.23.0
+Pillow>=7.0.0
+tqdm>=4.41.0 # For progress bars during training
+scipy>=1.4.1
+seaborn>=0.11.0 # For visualizing results like confusion matrices
+psutil # For system monitoring
+thop # For calculating model flops and parameters (optional)

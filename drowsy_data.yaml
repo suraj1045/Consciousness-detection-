@@ -1,0 +1,12 @@
+#  the root path where YOLOv5 data is located
+path: /Users/SRJ/Desktop/Consciousness-detection-/yolov5_data
+
+# Path to training and validation images 
+train: images/train 
+val: images/val 
+
+# number of classes
+nc: 2
+
+# class names )
+names: ['awake', 'drowsy']
